@@ -1,0 +1,503 @@
+ERROR - 2022-01-26 03:01:09 --> Table 'jsonwebtoken.user' doesn't exist
+CRITICAL - 2022-01-26 03:01:09 --> Table 'jsonwebtoken.user' doesn't exist
+#0 C:\xampp\htdocs\jwt-app\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\jwt-app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\jwt-app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\jwt-app\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jwt-app\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jwt-app\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('syahidan139@gma...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\jwt-app\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'syahidan139@gma...', Array, Array)
+#7 C:\xampp\htdocs\jwt-app\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\jwt-app\app\Controllers\Register.php(26): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#10 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-01-26 03:17:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 03:18:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 03:18:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 03:18:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 03:19:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 03:19:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 03:20:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 04:01:39 --> Undefined array key 2
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 04:02:22 --> Illegal offset type in isset or empty
+#0 C:\xampp\htdocs\jwt-app\vendor\firebase\php-jwt\src\JWT.php(185): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1Q...', 'JDASKDHIUy78dy7...', Array)
+#1 C:\xampp\htdocs\jwt-app\app\Controllers\Login.php(41): Firebase\JWT\JWT::encode(Array, 'JDASKDHIUy78dy7...', Array)
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-26 04:03:25 --> $keyOrKeyArray must be an instance of Firebase\JWT\Key key or an array of Firebase\JWT\Key keys
+#0 C:\xampp\htdocs\jwt-app\vendor\firebase\php-jwt\src\JWT.php(114): Firebase\JWT\JWT::getKey('JDASKDHIUy78dy7...', NULL)
+#1 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(27): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'JDASKDHIUy78dy7...', Array)
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-26 04:06:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-26 04:13:55 --> explode(): Argument #1 ($separator) cannot be empty
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(22): explode('', 'Bearer eyJ0eXAi...')
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 04:14:15 --> explode(): Argument #3 ($limit) must be of type int, string given
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(22): explode('Bearer', ' ', 'Bearer eyJ0eXAi...')
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 04:14:37 --> Undefined constant "App\Controllers\error"
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:14:48 --> $keyOrKeyArray must be an instance of Firebase\JWT\Key key or an array of Firebase\JWT\Key keys
+#0 C:\xampp\htdocs\jwt-app\vendor\firebase\php-jwt\src\JWT.php(114): Firebase\JWT\JWT::getKey('rahasia', NULL)
+#1 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(25): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'rahasia', Array)
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-26 04:15:06 --> Class "rahasia" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:15:28 --> Class "rahasia" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:16:19 --> Class "App\Controllers\Key" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:16:20 --> Class "App\Controllers\Key" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:16:22 --> Class "App\Controllers\Key" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:30:09 --> Undefined constant "App\Filters\header"
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:31:14 --> Undefined constant "App\Filters\header"
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:31:33 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTTP_UNAUTHORIZE
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:31:34 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTTP_UNAUTHORIZE
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:31:35 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTTP_UNAUTHORIZE
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:31:46 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTTP_UNAUTHORIZE
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:31:46 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTTP_UNAUTHORIZE
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:31:47 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTTP_UNAUTHORIZE
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 04:31:49 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTTP_UNAUTHORIZE
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 05:05:54 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTTP_UNAUTHORIZE
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 05:06:13 --> Undefined constant CodeIgniter\HTTP\ResponseInterface::HTTP_UNAUTHORIZE
+#0 C:\xampp\htdocs\jwt-app\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 05:43:59 --> Attempt to read property "uid" on array
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-26 06:46:39 --> Unknown table 'jsonwebtoken.userprofile'
+CRITICAL - 2022-01-26 07:27:43 --> Undefined variable $profileModel
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Register.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 07:28:04 --> Undefined variable $profileModel
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Register.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-26 07:28:25 --> Table 'jsonwebtoken.profiles' doesn't exist
+CRITICAL - 2022-01-26 07:28:25 --> Table 'jsonwebtoken.profiles' doesn't exist
+#0 C:\xampp\htdocs\jwt-app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\jwt-app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\jwt-app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\jwt-app\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\jwt-app\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jwt-app\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jwt-app\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\jwt-app\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\jwt-app\app\Controllers\Register.php(43): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#10 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-01-26 07:30:07 --> Unknown column 'name' in 'field list'
+CRITICAL - 2022-01-26 07:30:07 --> Unknown column 'name' in 'field list'
+#0 C:\xampp\htdocs\jwt-app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\jwt-app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\jwt-app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\jwt-app\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\jwt-app\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jwt-app\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jwt-app\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\jwt-app\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\jwt-app\app\Controllers\Register.php(43): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#10 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-01-26 07:51:44 --> Undefined variable $db
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 07:58:41 --> Class "App\Controllers\ProfileModel" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:00:13 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\jwt-app\system\Model.php on line 728
+#0 C:\xampp\htdocs\jwt-app\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('profiles')
+#1 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(40): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-26 08:00:57 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\jwt-app\system\Model.php on line 728
+#0 C:\xampp\htdocs\jwt-app\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('profiles')
+#1 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(40): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-26 08:01:06 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\jwt-app\system\Model.php on line 728
+#0 C:\xampp\htdocs\jwt-app\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('profiles')
+#1 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(40): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-26 08:01:07 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\jwt-app\system\Model.php on line 728
+#0 C:\xampp\htdocs\jwt-app\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('profiles')
+#1 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(40): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-26 08:01:35 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\jwt-app\system\Model.php on line 728
+#0 C:\xampp\htdocs\jwt-app\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('profiles')
+#1 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(40): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-26 08:03:59 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:04:54 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:21:23 --> Unexpected control character found
+#0 C:\xampp\htdocs\jwt-app\vendor\firebase\php-jwt\src\JWT.php(319): Firebase\JWT\JWT::handleJsonError(3)
+#1 C:\xampp\htdocs\jwt-app\vendor\firebase\php-jwt\src\JWT.php(98): Firebase\JWT\JWT::jsonDecode('{"typ":"JWT","a...')
+#2 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(28): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', Object(Firebase\JWT\Key))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#5 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-26 08:21:23 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\jwt-app\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\jwt-app\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\jwt-app\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\jwt-app\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\jwt-app\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-26 08:21:59 --> Malformed UTF-8 characters
+#0 C:\xampp\htdocs\jwt-app\vendor\firebase\php-jwt\src\JWT.php(319): Firebase\JWT\JWT::handleJsonError(5)
+#1 C:\xampp\htdocs\jwt-app\vendor\firebase\php-jwt\src\JWT.php(98): Firebase\JWT\JWT::jsonDecode('{"typ":"JWX\x8B\x08\x98[...')
+#2 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(28): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1i...', Object(Firebase\JWT\Key))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#4 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#5 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-26 08:21:59 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp\htdocs\jwt-app\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\jwt-app\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp\htdocs\jwt-app\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\jwt-app\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\jwt-app\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-26 08:29:41 --> Class "App\Controllers\DateTimeImmutable" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:30:12 --> Class "App\Controllers\DateTimeImmutable" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:31:15 --> Class "App\Controllers\DateTime" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:31:17 --> Class "App\Controllers\DateTime" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:31:20 --> Class "App\Controllers\DateTime" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:31:26 --> Class "App\Controllers\DateTimeImmutable" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:33:47 --> Trait "App\Controllers\DateTime" not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-26 08:36:31 --> Class "App\Controllers\Date" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:39:00 --> Class "App\Controllers\Time" not found
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 08:52:13 --> Undefined property: stdClass::$uid
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 08:52:53 --> Cannot handle token prior to 2022-01-26T08:52:55-0600
+#0 C:\xampp\htdocs\jwt-app\app\Controllers\Me.php(28): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', Object(Firebase\JWT\Key))
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#3 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-26 08:57:18 --> Undefined constant "App\Controllers\error"
+#0 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#1 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#2 C:\xampp\htdocs\jwt-app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jwt-app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jwt-app\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

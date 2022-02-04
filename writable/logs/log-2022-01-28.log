@@ -1,0 +1,570 @@
+ERROR - 2022-01-28 03:08:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` TEXT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	created_at dateti...' at line 5
+ERROR - 2022-01-28 03:10:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` TEXT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`created_at` TIME...' at line 5
+ERROR - 2022-01-28 03:13:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` TEXT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`category` VARCHA...' at line 5
+ERROR - 2022-01-28 03:14:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` TEXT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`category` VARCHA...' at line 5
+ERROR - 2022-01-28 03:15:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` TEXT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`category` VARCHA...' at line 5
+ERROR - 2022-01-28 03:16:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` TEXT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`category` VARCHA...' at line 5
+ERROR - 2022-01-28 03:17:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` TEXT NOT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`category` VA...' at line 5
+ERROR - 2022-01-28 03:18:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` VARCHAR(5000) NOT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`cat...' at line 5
+ERROR - 2022-01-28 03:19:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` VARCHAR(5000) NOT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`cat...' at line 5
+ERROR - 2022-01-28 03:20:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` VARCHAR(2000) NOT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`cat...' at line 5
+ERROR - 2022-01-28 03:21:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`desc` VARCHAR(2000) NOT NULL,
+	`img` VARCHAR(255) NOT NULL,
+	`cat...' at line 5
+ERROR - 2022-01-28 03:24:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_articles` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET...' at line 5
+ERROR - 2022-01-28 03:35:51 --> Table 'articles' already exists
+ERROR - 2022-01-28 03:36:27 --> Invalid default value for 'updated_at'
+ERROR - 2022-01-28 03:52:13 --> Table 'articles' already exists
+ERROR - 2022-01-28 03:54:16 --> Table 'articles' already exists
+CRITICAL - 2022-01-28 04:06:38 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->showById('1')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:06:49 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->showById('$id')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:06:50 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->showById('$id')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:06:51 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->showById('$id')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:07:08 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->showById('$id')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:08:35 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->showById('1')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:08:41 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->showById('1')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:42:37 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->showById('2')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:42:43 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->showById('1')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:56:10 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->show('2')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:56:22 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->show('2')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:56:42 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->show('1')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:57:25 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->show('1')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:57:34 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->show('1')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:57:44 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->show('1')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 04:57:45 --> Call to a member function where() on null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->show('1')
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-01-28 05:15:42 --> Object of class stdClass could not be converted to string
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\Query.php(318): strtr('SELECT *\nFROM `...', Array)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#7 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(53): CodeIgniter\BaseModel->findAll()
+#8 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->search()
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#10 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#13 {main}
+ERROR - 2022-01-28 05:16:25 --> Unknown column 'nama' in 'order clause'
+CRITICAL - 2022-01-28 05:16:25 --> Unknown column 'nama' in 'order clause'
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->search()
+#8 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#12 {main}
+ERROR - 2022-01-28 08:43:18 --> Table 'weknownow.users' doesn't exist
+CRITICAL - 2022-01-28 08:43:18 --> Table 'weknownow.users' doesn't exist
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\Register.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#10 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#14 {main}
+ERROR - 2022-01-28 08:43:30 --> Table 'articles' already exists
+ERROR - 2022-01-28 08:44:29 --> Table 'weknownow.users' doesn't exist
+CRITICAL - 2022-01-28 08:44:29 --> Table 'weknownow.users' doesn't exist
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\Register.php(34): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\Register->index()
+#10 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#14 {main}
+ERROR - 2022-01-28 09:13:00 --> Invalid default value for 'created_at'
+ERROR - 2022-01-28 09:15:56 --> Invalid default value for 'created_at'
+ERROR - 2022-01-28 09:32:05 --> Invalid default value for 'created_at'
+ERROR - 2022-01-28 09:32:37 --> Invalid default value for 'created'
+ERROR - 2022-01-28 09:37:08 --> Invalid default value for 'created'
+ERROR - 2022-01-28 10:08:47 --> Column 'uid' cannot be null
+CRITICAL - 2022-01-28 10:08:47 --> Column 'uid' cannot be null
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#10 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#14 {main}
+CRITICAL - 2022-01-28 10:09:56 --> Undefined array key 1
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\syahi\\...', 35)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+ERROR - 2022-01-28 10:10:09 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-01-28 10:10:09 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#10 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#14 {main}
+ERROR - 2022-01-28 10:12:53 --> Cannot add or update a child row: a foreign key constraint fails (`weknownow`.`keys`, CONSTRAINT `keys_uid_foreign` FOREIGN KEY (`uid`) REFERENCES `users` (`id`))
+CRITICAL - 2022-01-28 10:12:53 --> Cannot add or update a child row: a foreign key constraint fails (`weknownow`.`keys`, CONSTRAINT `keys_uid_foreign` FOREIGN KEY (`uid`) REFERENCES `users` (`id`))
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#10 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#14 {main}
+ERROR - 2022-01-28 10:13:49 --> Cannot add or update a child row: a foreign key constraint fails (`weknownow`.`keys`, CONSTRAINT `keys_uid_foreign` FOREIGN KEY (`uid`) REFERENCES `users` (`id`))
+CRITICAL - 2022-01-28 10:13:49 --> Cannot add or update a child row: a foreign key constraint fails (`weknownow`.`keys`, CONSTRAINT `keys_uid_foreign` FOREIGN KEY (`uid`) REFERENCES `users` (`id`))
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#10 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#14 {main}
+CRITICAL - 2022-01-28 10:14:07 --> Undefined array key 0
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\syahi\\...', 35)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:15:27 --> Undefined array key 0
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\syahi\\...', 41)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:15:44 --> Undefined array key 1
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\syahi\\...', 41)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:23:27 --> Call to undefined method App\Models\KeyModel::num_rows
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(32): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:23:38 --> Call to undefined method App\Models\KeyModel::count
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(32): CodeIgniter\Model->__call('count', Array)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:24:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+ERROR - 2022-01-28 10:28:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''keys' count(key)' at line 1
+CRITICAL - 2022-01-28 10:28:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''keys' count(key)' at line 1
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM '...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM '...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM '...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM '...')
+#4 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(32): CodeIgniter\Model->__call('query', Array)
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#6 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#10 {main}
+CRITICAL - 2022-01-28 10:47:52 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:48:14 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:48:24 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:49:16 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:49:19 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:49:19 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:49:20 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:49:30 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:49:47 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:49:49 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 10:49:50 --> Undefined property: App\Controllers\ArticleController::$input
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 25)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 11:16:08 --> Call to undefined method App\Models\UserModel::row
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(38): CodeIgniter\Model->__call('row', Array)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 11:16:43 --> Call to undefined method App\Models\UserModel::row
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(38): CodeIgniter\Model->__call('row', Array)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-01-28 11:16:45 --> Call to undefined method App\Models\UserModel::row
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(38): CodeIgniter\Model->__call('row', Array)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+ERROR - 2022-01-28 11:19:59 --> Unknown column 'uid' in 'where clause'
+CRITICAL - 2022-01-28 11:19:59 --> Unknown column 'uid' in 'where clause'
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `is_memb...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `is_memb...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `is_memb...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `is_memb...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#8 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#12 {main}
+CRITICAL - 2022-01-28 11:29:27 --> Call to a member function getResult() on array
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+ERROR - 2022-01-28 19:33:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-01-28 19:33:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#6 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#10 {main}
+ERROR - 2022-01-28 19:35:39 --> Table 'weknownow.articles' doesn't exist
+CRITICAL - 2022-01-28 19:35:39 --> Table 'weknownow.articles' doesn't exist
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#8 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#12 {main}
+ERROR - 2022-01-28 19:35:42 --> Table 'weknownow.articles' doesn't exist
+CRITICAL - 2022-01-28 19:35:42 --> Table 'weknownow.articles' doesn't exist
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#8 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#12 {main}
+ERROR - 2022-01-28 19:36:50 --> Table 'weknownow.articles' doesn't exist
+CRITICAL - 2022-01-28 19:36:50 --> Table 'weknownow.articles' doesn't exist
+#0 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\ArticleController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\ArticleController->index()
+#8 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#9 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#12 {main}
+CRITICAL - 2022-01-28 19:38:36 --> Undefined variable $member_validator
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\KeyController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\syahi\\...', 52)
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\KeyController->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeyController))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}

@@ -1,0 +1,115 @@
+CRITICAL - 2022-02-02 08:14:18 --> Call to undefined method CodeIgniter\Router\RouteCollection::respond()
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(842): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#4 {main}
+CRITICAL - 2022-02-02 08:14:19 --> Call to undefined method CodeIgniter\Router\RouteCollection::respond()
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(842): CodeIgniter\Router\RouteCollection->Config\{closure}('Favicon.ico is ...')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#4 {main}
+CRITICAL - 2022-02-02 08:14:26 --> Call to undefined method CodeIgniter\Router\RouteCollection::respond()
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(842): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#4 {main}
+CRITICAL - 2022-02-02 08:14:27 --> Call to undefined method CodeIgniter\Router\RouteCollection::respond()
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(842): CodeIgniter\Router\RouteCollection->Config\{closure}('Favicon.ico is ...')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#4 {main}
+CRITICAL - 2022-02-02 08:14:54 --> Array to string conversion
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Config\Routes.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\syahi\\...', 43)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(842): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-02 08:14:54 --> Array to string conversion
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Config\Routes.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\syahi\\...', 43)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(842): CodeIgniter\Router\RouteCollection->Config\{closure}('Favicon.ico is ...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-02 08:16:36 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#3 {main}
+CRITICAL - 2022-02-02 08:16:37 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#3 {main}
+CRITICAL - 2022-02-02 08:17:27 --> Invalid file: Sorry, route not found!.php
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Sorry, route no...')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Common.php(1089): CodeIgniter\View\View->render('Sorry, route no...', Array, true)
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Config\Routes.php(41): view('Sorry, route no...')
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(842): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-02 08:17:28 --> Invalid file: Sorry, route not found!.php
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Sorry, route no...')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Common.php(1089): CodeIgniter\View\View->render('Sorry, route no...', Array, true)
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Config\Routes.php(41): view('Sorry, route no...')
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(842): CodeIgniter\Router\RouteCollection->Config\{closure}('Favicon.ico is ...')
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+ERROR - 2022-02-02 08:44:08 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:44:20 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:44:21 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:44:38 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:45:16 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:45:17 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:45:18 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:45:26 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:45:36 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:46:04 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:46:23 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:46:24 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:46:50 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:46:51 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:46:53 --> Unknown column 'user.role' in 'field list'
+CRITICAL - 2022-02-02 08:47:28 --> Undefined array key 1
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Filters\Auth.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\syahi\\...', 38)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('api/v1/me', 'before')
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+ERROR - 2022-02-02 08:47:37 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:48:11 --> Unknown column 'user.role' in 'field list'
+CRITICAL - 2022-02-02 08:48:11 --> Undefined variable $data
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Me.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\syahi\\...', 40)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+ERROR - 2022-02-02 08:48:29 --> Unknown column 'user.role' in 'field list'
+ERROR - 2022-02-02 08:48:29 --> Unknown column 'user.role' in 'field list'
+CRITICAL - 2022-02-02 08:48:29 --> Unknown column 'user.role' in 'field list'
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Me.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#8 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#9 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#12 {main}
