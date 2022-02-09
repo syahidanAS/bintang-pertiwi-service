@@ -8,83 +8,95 @@ use CodeIgniter\API\ResponseTrait;
 
 class Image extends ResourceController
 {
-	/**
-	 * Return an array of resource objects, themselves in array format
-	 *
-	 * @return mixed
-	 */
-	public function index()
-	{
-		//
-	}
+
+	//Upload images
 	public function uploadImage()
 	{
 		$file = $this->request->getFile('image');
 		$title = $file->getName();
 		$flag = $this->request->getVar('flag');
+		$filesize = number_format(filesize($file) / 1048576, 1);
 
 		$temp = explode(".", $title);
 		$newfilename = round(microtime(true)) . '.' . end($temp);
 
-		if ($file->move("images/hero", $newfilename)) {
-			$fileModel = new ImagesModel();
-
-			$data = [
-				"title" => $newfilename,
-				"path" => "images/hero/" . $newfilename,
-				"flag" => $flag
+		if ($filesize >= 3) {
+			$response = [
+				'status' => 500,
+				'error' => true,
+				'message' => 'Ukuran foto harus dibawah 3 MB'
 			];
-			if ($fileModel->insert($data)) {
-				$response = [
-					'status' => 201,
-					'error' => false,
-					'message' => 'File uploaded successfully',
-					'data' => []
+		} else {
+			if ($file->move("images", $newfilename)) {
+				$fileModel = new ImagesModel();
+
+				$data = [
+					"title" => $newfilename,
+					"path" => base_url() . "/images/" . $newfilename,
+					"flag" => $flag
 				];
+				if ($fileModel->insert($data)) {
+					$response = [
+						'status' => 201,
+						'error' => false,
+						'message' => 'File uploaded successfully',
+						'data' => [
+							'file_size' => $filesize
+						]
+					];
+				} else {
+					$response = [
+						'status' => 500,
+						'error' => true,
+						'message' => 'Failed to save image',
+					];
+				}
 			} else {
 				$response = [
 					'status' => 500,
 					'error' => true,
-					'message' => 'Failed to save image',
+					'message' => 'Failed to upload image',
 					'data' => []
 				];
 			}
-		} else {
-			$response = [
-				'status' => 500,
-				'error' => true,
-				'message' => 'Failed to upload image',
-				'data' => []
-			];
 		}
+
+
 		return $this->respondCreated($response);
 	}
 
+	// Showing all hero images
 	public function listsHero()
 	{
+		$this->model = new ImagesModel();
+		$data = $this->model->select('*')
+			->where('flag', 'hero')->findAll();
 
-		$fileModel = new ImagesModel();
-		$payload = $fileModel->findAll();
-		$response = [
-			'status' => 500,
-			'error' => true,
-			'message' => 'Failed to upload image',
-			'data' => $payload
-		];
-
-		return $this->respondCreated($response);
+		return $this->respondCreated($data, 200);
 	}
 
-	
-	public function deleteImage(){
+	// Showing all gallery
+	public function listGallery()
+	{
+		$this->model = new ImagesModel();
+		$data = $this->model->select('*')
+			->where('flag', 'gallery')->findAll();
+
+		return $this->respondCreated($data, 200);
+	}
+
+	//Delete images according id in database and filename (title) in /images/ 
+	public function deleteImage()
+	{
 		$id = $this->request->getVar('id');
-		$path = $this->request->getVar('path');
-		$unlink = unlink($path);
+		$title = 'images' . $this->request->getVar('title');
+		$unlink = unlink($title);
 
 		$fileModel = new ImagesModel();
-		$sql = $fileModel->delete(['id' => $id]);
-		
-		if($unlink && $sql){
+
+
+		if ($unlink) {
+			$fileModel->delete(['id' => $id]);
 			$response = [
 				'status' => 200,
 				'error' => true,
@@ -92,68 +104,8 @@ class Image extends ResourceController
 				'data' => []
 			];
 			return $this->respondCreated($response, 200);
-		}else{
+		} else {
 			return $this->respondCreated("Failed", 200);
 		}
-	}
-
-	/**
-	 * Return the properties of a resource object
-	 *
-	 * @return mixed
-	 */
-	public function show($id = null)
-	{
-		//
-	}
-
-	/**
-	 * Return a new resource object, with default properties
-	 *
-	 * @return mixed
-	 */
-	public function new()
-	{
-		//
-	}
-
-	/**
-	 * Create a new resource object, from "posted" parameters
-	 *
-	 * @return mixed
-	 */
-	public function create()
-	{
-		//
-	}
-
-	/**
-	 * Return the editable properties of a resource object
-	 *
-	 * @return mixed
-	 */
-	public function edit($id = null)
-	{
-		//
-	}
-
-	/**
-	 * Add or update a model resource, from "posted" properties
-	 *
-	 * @return mixed
-	 */
-	public function update($id = null)
-	{
-		//
-	}
-
-	/**
-	 * Delete the designated resource object from the model
-	 *
-	 * @return mixed
-	 */
-	public function delete($id = null)
-	{
-		//
 	}
 }

@@ -56,6 +56,7 @@ class Login extends ResourceController
 			'user' => [
 				'uid' => $user['id'],
 				'email' => $user['email'],
+				'role' => $user['role'],
 				'token' => $token,
 			]
 		];

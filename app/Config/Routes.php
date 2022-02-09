@@ -40,6 +40,7 @@ $routes->get('api/v1/me',				'Me::index', ['filter' => 'auth']);
 //HERO IMAGES HANDLER
 $routes->post('api/v1/upload-hero',		'Image::uploadImage');
 $routes->get('api/v1/hero-images', 		'Image::listsHero');
+$routes->get('api/v1/gallery-images', 	'Image::listGallery');
 $routes->delete('api/v1/delete-hero', 	'Image::deleteImage');
 $routes->set404Override(function () {
 	return 'Sorry, route not found!';

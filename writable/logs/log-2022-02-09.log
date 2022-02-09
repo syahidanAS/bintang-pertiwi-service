@@ -111,3 +111,37 @@ CRITICAL - 2022-02-09 06:15:24 --> unlink(images/hero/1644400118.webp): No such 
 #5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
 #7 {main}
+CRITICAL - 2022-02-09 08:39:16 --> Undefined property: App\Controllers\Image::$baseURL
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 75)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->listsHero()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 08:39:30 --> Undefined property: App\Controllers\Image::$baseURL
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\syahi\\...', 75)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->listsHero()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 09:44:43 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', 'C:\\Users\\syahi\\...', 82)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(82): unlink('http://localhos...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 09:53:31 --> unlink(/images/hero/1644421980.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/images/...', 'C:\\Users\\syahi\\...', 82)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(82): unlink('/images/hero/16...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
