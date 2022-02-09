@@ -34,9 +34,13 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/',						'Home::index');
-$routes->post('api/v1/register',				'Register::index');
-$routes->post('api/v1/login',					'Login::index');
-$routes->get('api/v1/me',						'Me::index', ['filter' => 'auth']);
+$routes->post('api/v1/register',		'Register::index');
+$routes->post('api/v1/login',			'Login::index');
+$routes->get('api/v1/me',				'Me::index', ['filter' => 'auth']);
+//HERO IMAGES HANDLER
+$routes->post('api/v1/upload-hero',		'Image::uploadImage');
+$routes->get('api/v1/hero-images', 		'Image::listsHero');
+$routes->delete('api/v1/delete-hero', 	'Image::deleteImage');
 $routes->set404Override(function () {
 	return 'Sorry, route not found!';
 });

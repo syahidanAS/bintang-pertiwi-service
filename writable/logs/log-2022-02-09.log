@@ -1,0 +1,113 @@
+ERROR - 2022-02-09 02:35:39 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+CRITICAL - 2022-02-09 03:00:02 --> round(): Argument #1 ($num) must be of type int|float, string given
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\HeroImage.php(18): round('1644397202.9188...')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\HeroImage->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroImage))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+ERROR - 2022-02-09 03:01:13 --> Table 'bintangpertiwi.heroimages' doesn't exist
+CRITICAL - 2022-02-09 03:01:13 --> Table 'bintangpertiwi.heroimages' doesn't exist
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `he...', 0)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `he...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `he...')
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `he...', Array, false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\HeroImage.php(27): CodeIgniter\Model->insert(Array)
+#8 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\HeroImage->uploadImage()
+#9 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroImage))
+#10 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#13 {main}
+CRITICAL - 2022-02-09 03:12:03 --> Undefined variable $route
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Config\Routes.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\syahi\\...', 42)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(706): require('C:\\Users\\syahi\\...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 03:18:55 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\HeroImage.php on line 79
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\HeroImage.php(79): CodeIgniter\BaseModel->findAll('path')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\HeroImage->listsHero()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroImage))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 03:20:29 --> Call to undefined method App\Models\HeroImageModel::get_compiled_select
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\HeroImage.php(79): CodeIgniter\Model->__call('get_compiled_se...', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\HeroImage->listsHero()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroImage))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 03:21:11 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Model.php on line 728
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('title')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\HeroImage.php(79): CodeIgniter\Model->__call('get', Array)
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\HeroImage->listsHero()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroImage))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 03:45:03 --> unlink(/images/hero/1644399854.webp): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/images/...', 'C:\\Users\\syahi\\...', 63)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\HeroImage.php(63): unlink('/images/hero/16...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\HeroImage->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroImage))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 03:46:47 --> unlink(images/hero/1644399854.webp): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/h...', 'C:\\Users\\syahi\\...', 63)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\HeroImage.php(63): unlink('images/hero/164...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\HeroImage->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroImage))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 03:47:34 --> unlink(images/hero/1644399854.webp): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/h...', 'C:\\Users\\syahi\\...', 63)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\HeroImage.php(63): unlink('images/hero/164...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\HeroImage->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HeroImage))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+ERROR - 2022-02-09 05:14:25 --> Table 'hero_images' already exists
+CRITICAL - 2022-02-09 06:14:31 --> unlink(images/hero/1644400118.webp): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/h...', 'C:\\Users\\syahi\\...', 76)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(76): unlink('images/hero/164...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 06:15:04 --> unlink(images/hero/1644400118.webp): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/h...', 'C:\\Users\\syahi\\...', 76)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(76): unlink('images/hero/164...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 06:15:24 --> unlink(images/hero/1644400118.webp): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/h...', 'C:\\Users\\syahi\\...', 76)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(76): unlink('images/hero/164...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
