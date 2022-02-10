@@ -145,3 +145,350 @@ CRITICAL - 2022-02-09 09:53:31 --> unlink(/images/hero/1644421980.jpg): No such 
 #5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
 #7 {main}
+CRITICAL - 2022-02-09 10:52:00 --> Call to undefined method App\Models\ImagesModel::num_rows
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(25): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 10:53:01 --> Call to undefined method App\Models\ImagesModel::num_rows
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(26): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 10:53:39 --> Call to undefined method App\Models\ImagesModel::num_rows
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(25): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 10:58:14 --> Undefined variable $response
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\syahi\\...', 72)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 10:58:59 --> syntax error, unexpected token "public"
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\syahi\\...')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#8 {main}
+CRITICAL - 2022-02-09 10:59:34 --> Undefined variable $response
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\syahi\\...', 72)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:00:18 --> Undefined variable $response
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\syahi\\...', 72)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:01:26 --> Attempt to read property "nilai" on array
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\syahi\\...', 27)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:04:07 --> Undefined array key "nilai"
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\syahi\\...', 67)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:05:23 --> Call to undefined method App\Models\ImagesModel::row
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(25): CodeIgniter\Model->__call('row', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:05:52 --> Call to undefined method App\Models\ImagesModel::row
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(25): CodeIgniter\Model->__call('row', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:06:14 --> Call to undefined method App\Models\ImagesModel::row
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(25): CodeIgniter\Model->__call('row', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:07:19 --> Call to undefined method App\Models\ImagesModel::num_rows
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(25): CodeIgniter\Model->__call('num_rows', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:07:48 --> Call to undefined method App\Models\ImagesModel::count_all_results
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(25): CodeIgniter\Model->__call('count_all_resul...', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:11:10 --> The original file is not a valid file.
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('images/', '1644426671.')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 11:12:01 --> The original file is not a valid file.
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(34): CodeIgniter\HTTP\Files\UploadedFile->move('images/', '1644426722.')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 11:13:32 --> Undefined variable $response
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\syahi\\...', 72)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadImage()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 11:33:18 --> unlink(images1644427787.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images16...', 'C:\\Users\\syahi\\...', 165)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(165): unlink('images164442778...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 11:33:57 --> unlink(images1644427787.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images16...', 'C:\\Users\\syahi\\...', 165)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(165): unlink('images164442778...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 21:08:41 --> unlink(images/1644427787.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/1...', 'C:\\Users\\syahi\\...', 165)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Image.php(165): unlink('images/16444277...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->deleteImage()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 21:30:03 --> unlink(images/teachers/image_filename=1644463259.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(images/t...', 'C:\\Users\\syahi\\...', 87)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(87): unlink('images/teachers...')
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->deleteTeacher('id=2', 'image_filename=...')
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 21:34:18 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadGalleryImage()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 21:51:38 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 21:53:05 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 21:58:47 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 22:00:20 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 22:01:54 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 22:02:39 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 22:04:59 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 22:30:38 --> Call to undefined method App\Controllers\Teachers::select()
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 22:32:03 --> Attempt to read property "image_filename" on array
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\syahi\\...', 142)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 22:33:51 --> Call to a member function row() on array
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 22:34:07 --> Attempt to read property "image_filename" on array
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\syahi\\...', 142)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 22:35:36 --> Call to undefined method App\Models\TeachersModel::getRow
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(129): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 22:36:22 --> Call to undefined method App\Models\TeachersModel::getRow
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(129): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 22:37:10 --> Call to a member function getRow() on array
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 22:39:27 --> Cannot access offset of type string on string
+#0 [internal function]: App\Controllers\Teachers->App\Controllers\{closure}('1644466395.jpg')
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(130): array_map(Object(Closure), Array)
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#7 {main}
+CRITICAL - 2022-02-09 22:39:38 --> array_map(): Argument #2 ($array) must be of type array, App\Models\TeachersModel given
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(130): array_map(Object(Closure), Object(App\Models\TeachersModel))
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 22:39:39 --> array_map(): Argument #2 ($array) must be of type array, App\Models\TeachersModel given
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(130): array_map(Object(Closure), Object(App\Models\TeachersModel))
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 22:55:40 --> Attempt to read property "id" on array
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\syahi\\...', 142)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 22:57:32 --> Undefined array key 5
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\app\Controllers\Teachers.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\syahi\\...', 142)
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Teachers->updateTeacher()
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
+CRITICAL - 2022-02-09 23:19:47 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadGalleryImage()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 23:20:26 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadGalleryImage()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}
+CRITICAL - 2022-02-09 23:22:35 --> Call to a member function getName() on null
+#0 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(825): App\Controllers\Image->uploadHeroImage()
+#1 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#2 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\syahi\Documents\dev\bintang-pertiwi-school\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#5 {main}

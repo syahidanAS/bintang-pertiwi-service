@@ -33,15 +33,25 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/',						'Home::index');
-$routes->post('api/v1/register',		'Register::index');
-$routes->post('api/v1/login',			'Login::index');
-$routes->get('api/v1/me',				'Me::index', ['filter' => 'auth']);
-//HERO IMAGES HANDLER
-$routes->post('api/v1/upload-hero',		'Image::uploadImage');
-$routes->get('api/v1/hero-images', 		'Image::listsHero');
-$routes->get('api/v1/gallery-images', 	'Image::listGallery');
-$routes->delete('api/v1/delete-hero', 	'Image::deleteImage');
+$API_VERSION = 'api/v1/';
+
+$routes->get('/',								'Home::index');
+$routes->post($API_VERSION .'register',			'Register::index');
+$routes->post($API_VERSION .'login',			'Login::index');
+$routes->get($API_VERSION .'me',				'Me::index', ['filter' => 'auth']);
+//IMAGES HANDLER
+$routes->post($API_VERSION .'upload-hero',		'Image::uploadHeroImage');
+$routes->post($API_VERSION .'upload-gallery',	'Image::uploadGalleryImage');
+$routes->get($API_VERSION .'hero-images', 		'Image::listsHero');
+$routes->get($API_VERSION . 'gallery-images', 	'Image::listGallery');
+$routes->delete($API_VERSION .'delete-image', 	'Image::deleteImage');
+
+//TEACHERS HANDLER
+$routes->post($API_VERSION .'add-teacher',			'Teachers::createTeacher');
+$routes->get($API_VERSION . 'teachers',				'Teachers::index');
+$routes->delete($API_VERSION . 'delete-teacher',	'Teachers::deleteTeacher');
+$routes->post($API_VERSION . 'update-teacher',		'Teachers::updateTeacher');
+
 $routes->set404Override(function () {
 	return 'Sorry, route not found!';
 });

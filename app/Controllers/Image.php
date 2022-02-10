@@ -9,9 +9,78 @@ use CodeIgniter\API\ResponseTrait;
 class Image extends ResourceController
 {
 
-	//Upload images
-	public function uploadImage()
+	//Upload hero images
+	public function uploadHeroImage()
 	{
+		$this->model = new ImagesModel();
+
+		$file = $this->request->getFile('image');
+		$title = $file->getName();
+		$filesize = number_format(filesize($file) / 1048576, 1);
+
+		$temp = explode(".", $title);
+		$newfilename = round(microtime(true)) . '.' . end($temp);
+
+		$countHero = $this->model->select('*')->where('flag', 'hero')->countAllResults();
+
+		if ($countHero >= 4) {
+			$response = [
+				'status' => 500,
+				'error' => true,
+				'message' => 'Gambar tidak boleh lebih dari 5'
+			];
+		} else {
+			if ($filesize >= 3) {
+				$response = [
+					'status' => 500,
+					'error' => true,
+					'message' => 'Ukuran foto harus dibawah 3 MB'
+				];
+			} else {
+				if ($file->move("images", $newfilename)) {
+					$fileModel = new ImagesModel();
+					$data = [
+						"title" => $newfilename,
+						"path" => base_url() . "/images/" . $newfilename,
+						"flag" => 'hero'
+					];
+					if ($fileModel->insert($data)) {
+						$response = [
+							'status' => 201,
+							'error' => false,
+							'message' => 'Berhasil upload',
+							'data' => [
+								'file_size' => $filesize,
+							]
+						];
+					} else {
+						$response = [
+							'status' => 500,
+							'error' => true,
+							'message' => 'Failed to save image',
+						];
+					}
+				} else {
+					$response = [
+						'status' => 500,
+						'error' => true,
+						'message' => 'Failed to upload image',
+						'data' => []
+					];
+				}
+			}
+		}
+
+
+		return $this->respondCreated($response);
+	}
+
+
+	//Upload images
+	public function uploadGalleryImage()
+	{
+		$this->model = new ImagesModel();
+
 		$file = $this->request->getFile('image');
 		$title = $file->getName();
 		$flag = $this->request->getVar('flag');
@@ -19,6 +88,9 @@ class Image extends ResourceController
 
 		$temp = explode(".", $title);
 		$newfilename = round(microtime(true)) . '.' . end($temp);
+
+		// $countHero = $this->model->select('*')->where('flag', $flag)->countAllResults();
+
 
 		if ($filesize >= 3) {
 			$response = [
@@ -29,19 +101,18 @@ class Image extends ResourceController
 		} else {
 			if ($file->move("images", $newfilename)) {
 				$fileModel = new ImagesModel();
-
 				$data = [
 					"title" => $newfilename,
 					"path" => base_url() . "/images/" . $newfilename,
-					"flag" => $flag
+					"flag" => 'gallery'
 				];
 				if ($fileModel->insert($data)) {
 					$response = [
 						'status' => 201,
 						'error' => false,
-						'message' => 'File uploaded successfully',
+						'message' => 'Berhasil upload',
 						'data' => [
-							'file_size' => $filesize
+							'file_size' => $filesize,
 						]
 					];
 				} else {
@@ -60,6 +131,7 @@ class Image extends ResourceController
 				];
 			}
 		}
+
 
 
 		return $this->respondCreated($response);
@@ -89,7 +161,7 @@ class Image extends ResourceController
 	public function deleteImage()
 	{
 		$id = $this->request->getVar('id');
-		$title = 'images' . $this->request->getVar('title');
+		$title = 'images/' . $this->request->getVar('title');
 		$unlink = unlink($title);
 
 		$fileModel = new ImagesModel();
